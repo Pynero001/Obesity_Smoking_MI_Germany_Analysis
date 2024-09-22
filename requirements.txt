@@ -4,5 +4,5 @@ numpy==2.0.0
 geopandas==1.0.1
 pingouin==0.5.5
 scipy==1.14.0
-PIL==10.4.0
+Pillow==10.4.0
 print_versions==0.1.0
