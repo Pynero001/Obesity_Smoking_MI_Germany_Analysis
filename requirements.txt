@@ -1,5 +1,6 @@
 plotly==5.23.0
 pandas==2.2.2
+kaleido==0.2.1
 numpy==2.0.0
 geopandas==1.0.1
 pingouin==0.5.5
