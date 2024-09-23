@@ -1,3 +1,11 @@
+[![Click on the Binder badge above to view the interactive notebook](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Pynero001/Obesity_Smoking_MI_Germany_Analysis/HEAD?labpath=Obesity_Smoking_MI_Germany_Analysis.ipynb)
+
+To ensure the plots are interactive, in cell 2 run
+
+ `pio.renderers.default = 'iframe'`
+
+---
+
 ## Evaluating Obesity, Smoking and Myocardial Infarction Rates in Germany: A Retrospective Analysis for SDG 3 
 
 #### **Introduction**
@@ -128,7 +136,7 @@ On assessing the relationship between obesity, smoking and the prevalence of myo
 
 A simple linear regression analysis was done to measure the statistical significance in the relationship between smoking, obesity and myocardial infarction rate.
 
-**Key Insights**
+<h3><font color="cyan">Key Insights</font></h3>
 
 * Based on the results of the linear regression analysis and an alpha level of 0.05, it can be deduced that there was a significant association (p=0.0082) between the obesity rate and the prevalence of acute myocardial infarction in Germany in 2021.
 
@@ -136,7 +144,7 @@ A simple linear regression analysis was done to measure the statistical signific
 
 * An analysis of the overall trends in obesity, smoking and myocardial infarction rates over the past decades revealed a decline in smoking and MI rates while obesity has been on the rise.
 
-**My Recommendations**
+<h3><font color="cyan">My Recommendations</font></h3>
 
 Mecklenburg Western Pomerania, Bremen and Thuringia performed poorly across nearly all the metrics in 2021, highlighting the need for targeted interventions and policies in order to ensure alignment with the Sustainable Development Goals. Based on the results of the analysis, I propose the following recommendations to address key issues identified:
 
@@ -152,23 +160,24 @@ Mecklenburg Western Pomerania, Bremen and Thuringia performed poorly across near
 ---
 **PACKAGES**
 
-* Plotly v5.23.0
-
-* Pandas v2.2.2
-
-* Numpy v2.0.0
-
-* Json v2.0.9
+* Kaleido v0.2.1
 
 * Geopandas v1.0.1
 
-* Pingouin v0.5.5
+* Numpy v2.0.0
 
-* Scipy v1.14.0
+* Pandas v2.2.2
 
 * PIL v10.4.0
 
-* print_versions v0.1.0
+* Pingouin v0.5.5
+
+* Plotly v5.23.0
+
+* Print_versions v0.1.0
+
+* Scipy v1.14.0
+
 
 **REFERENCES**
 
@@ -183,4 +192,4 @@ Mecklenburg Western Pomerania, Bremen and Thuringia performed poorly across near
 
 
 
-
+> *If you enjoyed this project, please leave a ⭐ and share with others 🙏.*
